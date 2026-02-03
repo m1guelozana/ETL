@@ -1,22 +1,202 @@
 [
-  {"symbol":"BTC","name":"Bitcoin","price_usd":56000.12,"market_cap_usd":1050000000000,"circulating_supply":18850000,"max_supply":21000000,"launch_date":"2009-01-03","website":"https://bitcoin.org"},
-  {"symbol":"ETH","name":"Ethereum","price_usd":3200.45,"market_cap_usd":380000000000,"circulating_supply":120000000,"max_supply":null,"launch_date":"2015-07-30","website":"https://ethereum.org"},
-  {"symbol":"USDT","name":"Tether","price_usd":1.00,"market_cap_usd":83000000000,"circulating_supply":83000000000,"max_supply":null,"launch_date":"2014-02-06","website":"https://tether.to"},
-  {"symbol":"BNB","name":"Binance Coin","price_usd":420.75,"market_cap_usd":64000000000,"circulating_supply":152000000,"max_supply":170532785,"launch_date":"2017-07-25","website":"https://www.binance.com"},
-  {"symbol":"USDC","name":"USD Coin","price_usd":1.00,"market_cap_usd":46000000000,"circulating_supply":46000000000,"max_supply":null,"launch_date":"2018-09-26","website":"https://www.circle.com"},
-  {"symbol":"XRP","name":"XRP","price_usd":0.75,"market_cap_usd":36000000000,"circulating_supply":48000000000,"max_supply":100000000000,"launch_date":"2012-02-02","website":"https://ripple.com"},
-  {"symbol":"ADA","name":"Cardano","price_usd":1.25,"market_cap_usd":40000000000,"circulating_supply":32000000000,"max_supply":45000000000,"launch_date":"2017-09-29","website":"https://cardano.org"},
-  {"symbol":"SOL","name":"Solana","price_usd":110.50,"market_cap_usd":36000000000,"circulating_supply":330000000,"max_supply":null,"launch_date":"2020-03-16","website":"https://solana.com"},
-  {"symbol":"DOGE","name":"Dogecoin","price_usd":0.18,"market_cap_usd":24000000000,"circulating_supply":132000000000,"max_supply":null,"launch_date":"2013-12-06","website":"https://dogecoin.com"},
-  {"symbol":"DOT","name":"Polkadot","price_usd":28.40,"market_cap_usd":32000000000,"circulating_supply":1150000000,"max_supply":1000000000,"launch_date":"2020-05-26","website":"https://polkadot.network"},
-  {"symbol":"MATIC","name":"Polygon","price_usd":1.90,"market_cap_usd":15000000000,"circulating_supply":6900000000,"max_supply":10000000000,"launch_date":"2019-10-01","website":"https://polygon.technology"},
-  {"symbol":"LTC","name":"Litecoin","price_usd":180.25,"market_cap_usd":12000000000,"circulating_supply":74000000,"max_supply":84000000,"launch_date":"2011-10-07","website":"https://litecoin.org"},
-  {"symbol":"LINK","name":"Chainlink","price_usd":18.60,"market_cap_usd":9000000000,"circulating_supply":470000000,"max_supply":1000000000,"launch_date":"2017-09-19","website":"https://chain.link"},
-  {"symbol":"BCH","name":"Bitcoin Cash","price_usd":560.10,"market_cap_usd":10500000000,"circulating_supply":18800000,"max_supply":21000000,"launch_date":"2017-08-01","website":"https://bitcoincash.org"},
-  {"symbol":"ALGO","name":"Algorand","price_usd":0.95,"market_cap_usd":8000000000,"circulating_supply":8500000000,"max_supply":10000000000,"launch_date":"2019-06-19","website":"https://www.algorand.com"},
-  {"symbol":"ATOM","name":"Cosmos","price_usd":30.20,"market_cap_usd":12000000000,"circulating_supply":400000000,"max_supply":null,"launch_date":"2019-03-13","website":"https://cosmos.network"},
-  {"symbol":"VET","name":"VeChain","price_usd":0.12,"market_cap_usd":8000000000,"circulating_supply":64000000000,"max_supply":86712634466,"launch_date":"2015-08-01","website":"https://www.vechain.org"},
-  {"symbol":"TRX","name":"TRON","price_usd":0.09,"market_cap_usd":7000000000,"circulating_supply":99200000000,"max_supply":100000000000,"launch_date":"2017-09-13","website":"https://tron.network"},
-  {"symbol":"UNI","name":"Uniswap","price_usd":10.50,"market_cap_usd":6000000000,"circulating_supply":560000000,"max_supply":1000000000,"launch_date":"2020-11-02","website":"https://uniswap.org"},
-  {"symbol":"AAVE","name":"Aave","price_usd":140.75,"market_cap_usd":2100000000,"circulating_supply":15000000,"max_supply":16000000,"launch_date":"2020-01-01","website":"https://aave.com"}
+  {
+    "symbol": "BTC",
+    "name": "Bitcoin",
+    "price_usd": 56000.12,
+    "market_cap_usd": 1050000000000,
+    "circulating_supply": 18850000,
+    "max_supply": 21000000,
+    "launch_date": "2009-01-03",
+    "website": "https://bitcoin.org"
+  },
+  {
+    "symbol": "ETH",
+    "name": "Ethereum",
+    "price_usd": 3200.45,
+    "market_cap_usd": 380000000000,
+    "circulating_supply": 120000000,
+    "max_supply": null,
+    "launch_date": "2015-07-30",
+    "website": "https://ethereum.org"
+  },
+  {
+    "symbol": "USDT",
+    "name": "Tether",
+    "price_usd": 1.0,
+    "market_cap_usd": 83000000000,
+    "circulating_supply": 83000000000,
+    "max_supply": null,
+    "launch_date": "2014-02-06",
+    "website": "https://tether.to"
+  },
+  {
+    "symbol": "BNB",
+    "name": "Binance Coin",
+    "price_usd": 420.75,
+    "market_cap_usd": 64000000000,
+    "circulating_supply": 152000000,
+    "max_supply": 170532785,
+    "launch_date": "2017-07-25",
+    "website": "https://www.binance.com"
+  },
+  {
+    "symbol": "USDC",
+    "name": "USD Coin",
+    "price_usd": 1.0,
+    "market_cap_usd": 46000000000,
+    "circulating_supply": 46000000000,
+    "max_supply": null,
+    "launch_date": "2018-09-26",
+    "website": "https://www.circle.com"
+  },
+  {
+    "symbol": "XRP",
+    "name": "XRP",
+    "price_usd": 0.75,
+    "market_cap_usd": 36000000000,
+    "circulating_supply": 48000000000,
+    "max_supply": 100000000000,
+    "launch_date": "2012-02-02",
+    "website": "https://ripple.com"
+  },
+  {
+    "symbol": "ADA",
+    "name": "Cardano",
+    "price_usd": 1.25,
+    "market_cap_usd": 40000000000,
+    "circulating_supply": 32000000000,
+    "max_supply": 45000000000,
+    "launch_date": "2017-09-29",
+    "website": "https://cardano.org"
+  },
+  {
+    "symbol": "SOL",
+    "name": "Solana",
+    "price_usd": 110.5,
+    "market_cap_usd": 36000000000,
+    "circulating_supply": 330000000,
+    "max_supply": null,
+    "launch_date": "2020-03-16",
+    "website": "https://solana.com"
+  },
+  {
+    "symbol": "DOGE",
+    "name": "Dogecoin",
+    "price_usd": 0.18,
+    "market_cap_usd": 24000000000,
+    "circulating_supply": 132000000000,
+    "max_supply": null,
+    "launch_date": "2013-12-06",
+    "website": "https://dogecoin.com"
+  },
+  {
+    "symbol": "DOT",
+    "name": "Polkadot",
+    "price_usd": 28.4,
+    "market_cap_usd": 32000000000,
+    "circulating_supply": 1150000000,
+    "max_supply": 1000000000,
+    "launch_date": "2020-05-26",
+    "website": "https://polkadot.network"
+  },
+  {
+    "symbol": "MATIC",
+    "name": "Polygon",
+    "price_usd": 1.9,
+    "market_cap_usd": 15000000000,
+    "circulating_supply": 6900000000,
+    "max_supply": 10000000000,
+    "launch_date": "2019-10-01",
+    "website": "https://polygon.technology"
+  },
+  {
+    "symbol": "LTC",
+    "name": "Litecoin",
+    "price_usd": 180.25,
+    "market_cap_usd": 12000000000,
+    "circulating_supply": 74000000,
+    "max_supply": 84000000,
+    "launch_date": "2011-10-07",
+    "website": "https://litecoin.org"
+  },
+  {
+    "symbol": "LINK",
+    "name": "Chainlink",
+    "price_usd": 18.6,
+    "market_cap_usd": 9000000000,
+    "circulating_supply": 470000000,
+    "max_supply": 1000000000,
+    "launch_date": "2017-09-19",
+    "website": "https://chain.link"
+  },
+  {
+    "symbol": "BCH",
+    "name": "Bitcoin Cash",
+    "price_usd": 560.1,
+    "market_cap_usd": 10500000000,
+    "circulating_supply": 18800000,
+    "max_supply": 21000000,
+    "launch_date": "2017-08-01",
+    "website": "https://bitcoincash.org"
+  },
+  {
+    "symbol": "ALGO",
+    "name": "Algorand",
+    "price_usd": 0.95,
+    "market_cap_usd": 8000000000,
+    "circulating_supply": 8500000000,
+    "max_supply": 10000000000,
+    "launch_date": "2019-06-19",
+    "website": "https://www.algorand.com"
+  },
+  {
+    "symbol": "ATOM",
+    "name": "Cosmos",
+    "price_usd": 30.2,
+    "market_cap_usd": 12000000000,
+    "circulating_supply": 400000000,
+    "max_supply": null,
+    "launch_date": "2019-03-13",
+    "website": "https://cosmos.network"
+  },
+  {
+    "symbol": "VET",
+    "name": "VeChain",
+    "price_usd": 0.12,
+    "market_cap_usd": 8000000000,
+    "circulating_supply": 64000000000,
+    "max_supply": 86712634466,
+    "launch_date": "2015-08-01",
+    "website": "https://www.vechain.org"
+  },
+  {
+    "symbol": "TRX",
+    "name": "TRON",
+    "price_usd": 0.09,
+    "market_cap_usd": 7000000000,
+    "circulating_supply": 99200000000,
+    "max_supply": 100000000000,
+    "launch_date": "2017-09-13",
+    "website": "https://tron.network"
+  },
+  {
+    "symbol": "UNI",
+    "name": "Uniswap",
+    "price_usd": 10.5,
+    "market_cap_usd": 6000000000,
+    "circulating_supply": 560000000,
+    "max_supply": 1000000000,
+    "launch_date": "2020-11-02",
+    "website": "https://uniswap.org"
+  },
+  {
+    "symbol": "AAVE",
+    "name": "Aave",
+    "price_usd": 140.75,
+    "market_cap_usd": 2100000000,
+    "circulating_supply": 15000000,
+    "max_supply": 16000000,
+    "launch_date": "2020-01-01",
+    "website": "https://aave.com"
+  }
 ]
