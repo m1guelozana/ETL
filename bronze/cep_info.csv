@@ -1,0 +1,51 @@
+cep,logradouro,complemento,unidade,bairro,localidade,uf,estado,regiao,ibge,gia,ddd,siafi,erro
+01001-000,Praça da Sé,lado ímpar,,Sé,São Paulo,SP,São Paulo,Sudeste,3550308,1004,11,7107,
+01311-000,Avenida Paulista,até 609 - lado ímpar,,Bela Vista,São Paulo,SP,São Paulo,Sudeste,3550308,1004,11,7107,
+20010-000,Rua Primeiro de Março,,,Centro,Rio de Janeiro,RJ,Rio de Janeiro,Sudeste,3304557,,21,6001,
+22040-001,Rua Barata Ribeiro,de 247 a 571 - lado ímpar,,Copacabana,Rio de Janeiro,RJ,Rio de Janeiro,Sudeste,3304557,,21,6001,
+30110-000,Praça Antônio Elias Moisés,,,Centro,Belo Horizonte,MG,Minas Gerais,Sudeste,3106200,,31,4123,
+40010-000,Avenida da França,,,Comércio,Salvador,BA,Bahia,Nordeste,2927408,,71,3849,
+70040-010,Quadra SBN Quadra 1,,,Asa Norte,Brasília,DF,Distrito Federal,Centro-Oeste,5300108,,61,9701,
+80010-000,Rua José Loureiro,,,Centro,Curitiba,PR,Paraná,Sul,4106902,,41,7535,
+90010-000,Rua Siqueira Campos,até 944/945,,Centro Histórico,Porto Alegre,RS,Rio Grande do Sul,Sul,4314902,,51,8801,
+60010-000,Avenida Presidente Castelo Branco,de 200/201 a 1999/2000,,Moura Brasil,Fortaleza,CE,Ceará,Nordeste,2304400,,85,1389,
+,,,,,,,,,,,,,true
+51020-020,Avenida Conselheiro Aguiar,de 2257/2258 a 3005/3006,,Boa Viagem,Recife,PE,Pernambuco,Nordeste,2611606,,81,2531,
+13010-000,Avenida Doutor Moraes Salles,até 700/701,,Centro,Campinas,SP,São Paulo,Sudeste,3509502,2446,19,6291,
+11010-000,Praça Visconde de Mauá,,,Centro,Santos,SP,São Paulo,Sudeste,3548500,6336,13,7071,
+,,,,,,,,,,,,,true
+,,,,,,,,,,,,,true
+66010-000,Avenida Presidente Vargas,até 379/380,,Campina,Belém,PA,Pará,Norte,1501402,,91,0427,
+59010-000,Avenida Presidente Café Filho,,,Praia do Meio,Natal,RN,Rio Grande do Norte,Nordeste,2408102,,84,1761,
+58010-000,Avenida Beaurepaire Rohan,lado par,,Varadouro,João Pessoa,PB,Paraíba,Nordeste,2507507,,83,2051,
+88010-000,Rua Felipe Schmidt,até 348/349,,Centro,Florianópolis,SC,Santa Catarina,Sul,4205407,,48,8105,
+57010-000,Avenida Siqueira Campos,até 959 - lado ímpar,,Prado,Maceió,AL,Alagoas,Nordeste,2704302,,82,2785,
+79002-000,Avenida Calógeras,de 1513 a 1997 - lado ímpar,,Centro,Campo Grande,MS,Mato Grosso do Sul,Centro-Oeste,5002704,,67,9051,
+78005-000,Rua Engenheiro Ricardo Franco,,,Centro-Norte,Cuiabá,MT,Mato Grosso,Centro-Oeste,5103403,,65,9067,
+,,,,,,,,,,,,,true
+49010-000,Rua Laranjeiras,até 1022/1023,,Centro,Aracaju,SE,Sergipe,Nordeste,2800308,,79,3105,
+,,,,,,,,,,,,,true
+,,,,,,,,,,,,,true
+,,,,,,,,,,,,,true
+76801-000,Avenida Pinheiro Machado,até 550 - lado par,,Centro,Porto Velho,RO,Rondônia,Norte,1100205,,69,0003,
+69301-000,Avenida Ville Roy,de 5373/5374 a 6277/6278,,Centro,Boa Vista,RR,Roraima,Norte,1400100,,95,0301,
+65010-000,Rua Vinte e Oito de Setembro,,,Centro,São Luís,MA,Maranhão,Nordeste,2111300,,98,0921,
+18010-000,Rua da Penha,até 470/471,,Centro,Sorocaba,SP,São Paulo,Sudeste,3552205,6695,15,7145,
+,,,,,,,,,,,,,true
+25620-000,Rua do Imperador,até 552 - lado par,,Centro,Petrópolis,RJ,Rio de Janeiro,Sudeste,3303906,,24,5877,
+,,,,,,,,,,,,,true
+14010-000,Rua General Osório,até 1498/1499,,Centro,Ribeirão Preto,SP,São Paulo,Sudeste,3543402,5824,16,6969,
+,,,,,,,,,,,,,true
+36010-000,Rua Halfeld,de 101/102 a 449/450,,Centro,Juiz de Fora,MG,Minas Gerais,Sudeste,3136702,,32,4733,
+,,,,,,,,,,,,,true
+85801-000,Avenida Brasil,de 5623 a 6869 - lado ímpar,,Centro,Cascavel,PR,Paraná,Sul,4104808,,45,7493,
+86010-000,Rua Professor João Cândido,até 1059/1060,,Centro,Londrina,PR,Paraná,Sul,4113700,,43,7667,
+17010-000,Rua Batista de Carvalho,de Quadra 7 a Quadra 11,,Centro,Bauru,SP,São Paulo,Sudeste,3506003,2094,14,6219,
+96010-000,Rua Félix Xavier da Cunha,,,Centro,Pelotas,RS,Rio Grande do Sul,Sul,4314407,,53,8791,
+89201-000,Rua do Príncipe,até 428 - lado par,,Centro,Joinville,SC,Santa Catarina,Sul,4209102,,47,8179,
+28010-000,Praça Santíssimo Salvador,,,Centro,Campos dos Goytacazes,RJ,Rio de Janeiro,Sudeste,3301009,,22,5819,
+14801-000,Avenida Presidente Vargas,lado par,,Jardim Califórnia,Araraquara,SP,São Paulo,Sudeste,3503208,1818,16,6163,
+,,,,,,,,,,,,,true
+97010-000,Rua Venâncio Aires,até 1312 - lado par,,Centro,Santa Maria,RS,Rio Grande do Sul,Sul,4316907,,55,8841,
+88301-000,Rua Hercílio Luz,até 80/81,,Centro,Itajaí,SC,Santa Catarina,Sul,4208203,,47,8161,
+,,,,,,,,,,,,,true
