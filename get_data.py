@@ -3,13 +3,19 @@ import pandas as pd
 
 def get_data(cep):
     endpoint = f"https://viacep.com.br/ws/{cep}/json/"
+    try:
+      res = req.get(endpoint)
 
-    res = req.get(endpoint)
-
-    if res.status_code == 200:
-      return res.json()
-    else:
-      return {"error": "CEP not found"}
+      if res.status_code == 200:
+        return res.json()
+      else:
+        return {"error": "CEP not found"}
+    except req.exceptions.ConnectionError as e:
+      return {"error": str(e)}
+    except req.exceptions.Timeout as e:
+      return {"error": str(e)}
+    except req.exceptions.RequestException as e:
+      return {"error": str(e)}
 
 users_path = "bronze/users.csv"
 users_df = pd.read_csv(users_path)
