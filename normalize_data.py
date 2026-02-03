@@ -15,9 +15,8 @@ class NormalizeData:
                 df[col] = df[col].apply(lambda x: str(x) if isinstance(x, list) else x)
         return df
 
-    def load_df_from_file(self, file):
+    def load_df_from_file(self, file, ext):
         input_path = os.path.join(self.input_path, file)
-        _, ext = os.path.splitext(file)
 
         # Carregar DataFrame a partir de arquivo CSV ou JSON
         if ext.lower() == ".csv":
@@ -31,8 +30,10 @@ class NormalizeData:
     # Normalização de dados
     def normalize_data(self):
         for file in os.listdir(self.input_path):
-            df = self.load_df_from_file(file)
-            output_file = os.path.join(self.output_path, file)
+            name, ext = os.path.splitext(file)
+            output_file = os.path.join(self.output_path, f"{name}", file)
+
+            df = self.load_df_from_file(file, ext)
 
             df = self.convert_to_string(df)
             df = df.drop_duplicates().reset_index(drop=True)
