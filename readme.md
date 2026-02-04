@@ -89,19 +89,3 @@ Provide data ready for business analysis and visualization.
 - Pandas
 
 ---
-
-## 🧱 Project Structure
-
-```text
-.
-├── bronze/
-│   ├── users.csv
-│   └── cep_info.json
-├── silver/
-│   └── *.parquet
-├── gold/
-│   ├── db.py
-│   └── load_to_postgres.py
-├── notebooks/
-│   └── data_exploration.ipynb
-├── README.md
