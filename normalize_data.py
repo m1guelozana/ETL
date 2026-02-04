@@ -31,16 +31,17 @@ class NormalizeData:
     def normalize_data(self):
         for file in os.listdir(self.input_path):
             name, ext = os.path.splitext(file)
-            output_file = os.path.join(self.output_path, f"{name}", file)
+
+            output_file = os.path.join(self.output_path, f"{name}.parquet")
 
             df = self.load_df_from_file(file, ext)
-
             df = self.convert_to_string(df)
             df = df.drop_duplicates().reset_index(drop=True)
 
-            # Salvar como parquet
             df.to_parquet(output_file, index=False)
             print(f"Processed and saved: {output_file}")
+
+
 
 
 if __name__ == "__main__":
