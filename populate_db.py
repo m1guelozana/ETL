@@ -10,5 +10,3 @@ for file in os.listdir("silver"):
     db.create_table(file.replace(".parquet", ""), df)
     db.insert_data(file.replace(".parquet", ""), df)
     print(f"Data from {file} inserted into database.")
-
-    db.close()
